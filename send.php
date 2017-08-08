@@ -30,9 +30,7 @@ $result = $sql->query($que);
 if(!$result){
 	echo "connection fail".mysqli_connect_error()."";
 }
-// else{
-// 	echo "Your data has been sent sent to the database";
-// }
+
 $sql->close();
 header("location: index.php");
 ?>
