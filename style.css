@@ -14,18 +14,23 @@ body{
 	border-radius: 5px;
 }
 #chat_box{
-	width: 90%;
-	height: 400px;
+	width: 95%;
+	min-height: 400px;
+	margin-bottom: 30px;
+	/*margin: 0 auto 30px;*/
 }
 #chat_data{
 	width: 100%;
-	padding: 5px;
+	padding: 10px;
 	margin-bottom: 5px;
-	border-bottom: 1px solid silver;
+	/*border-bottom: 1px solid silver;*/
 	font-weight: bold;
+	height: auto;
+	border: 1px dotted grey;
+	border-radius: 10px;
 }
-input{
-	width: 100%;
+input[type=text]{
+	width: 97%;
 	height: 40px;
 	border: 1px solid silver;
 	border-radius: 5px;
@@ -33,17 +38,26 @@ input{
 	padding: 5px;
 }
 input[type=submit]{
+	/* display: inline-block; */
 	border: 1px solid grey;
 	font: bold italic 1.2em helvetica, sans-serif;
 	text-align: center;
 	color: steelblue;
+	border-radius: 5px;
+	width: 16%;
+	padding: 5px;
+	position: relative;
+	top: -73px;
+	height: 70px;
 }
 textarea{
-	width: 100%;
+	width: 80%;
 	height: 40px;
 	border: 1px solid grey;
 	margin: 2px 0;
 	padding: 5px;
 	border-radius: 5px;
 	font-size: 0.8em;
+	height: 100px;
 }
+
