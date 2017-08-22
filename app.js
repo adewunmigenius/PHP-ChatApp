@@ -1,9 +1,10 @@
-var x = document.getElementById('name').value; 
-var y = document.getElementById('entmsg').value;
 
-
-function validate(){
-	if(x == "" && y ==""){
-		document.getElementsByName('submit').disabled = true;
+function validate()
+{
+	if( document.CHAT.entmsg.value == "" )
+	{
+		document.CHAT.entmsg.focus() ;
+		return false;
 	}
+	return (true);
 }
