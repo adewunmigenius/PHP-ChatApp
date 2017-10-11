@@ -2,7 +2,6 @@
 session_start();
 require_once 'chatdb.php';
 ?>
-
 <!doctype html>
 <html>
 <head>
