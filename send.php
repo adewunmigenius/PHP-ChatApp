@@ -2,7 +2,6 @@
 session_start();
 require_once 'chatdb.php';
 
-
 if (isset($_POST['name']) && isset($_POST['entmsg'])){
 $name = $_POST['name'];
 $entmsg = $_POST['entmsg'];
